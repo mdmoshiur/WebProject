@@ -9,6 +9,7 @@ $result=mysqli_query($conn,$sql);
    ?>
 
    <link rel="stylesheet" type="text/css" href="query_style.css">
+   <link rel="stylesheet" type="text/css" href="home_button.css">
   </head>
   <body>
     <h1 class="header">Project Lists</h1>
@@ -33,5 +34,12 @@ $result=mysqli_query($conn,$sql);
  ?>
     </table>
     </div>
+
+   </div>
+  </div>
+  <div class="bt">
+   <a href="index.html"><button>Back To Home</button></a>
+ </div>
+
   </body>
 </html>

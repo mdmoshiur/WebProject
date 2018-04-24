@@ -1,5 +1,4 @@
 <?php
-
 require_once("connect_server.php");
 $emp_id=$_POST['emp_id'];
 $street_no=$_POST['street_no'];
@@ -12,6 +11,6 @@ if($result)
 {
   echo "data inserted";
 }
-header("refresh:2; url=index.php");
+header("refresh:2; url=index.html");
  ?>
  

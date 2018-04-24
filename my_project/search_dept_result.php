@@ -34,7 +34,7 @@ while ($row=mysqli_fetch_assoc($result))
   </div>
 </div>
 <div class="bt">
- <a href="index.php"><button>Back To Home</button></a>
+ <a href="index.html"><button>Back To Home</button></a>
 </div>
 </body>
 </html>
