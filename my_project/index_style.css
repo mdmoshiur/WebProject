@@ -1,0 +1,63 @@
+body {
+ background: url('bg.jpg') no-repeat;
+ background-size: cover;
+ font-family: Arial;
+}
+
+ul {
+ margin: 0px;
+ padding: 0px;
+ list-style: none;
+ font-family: arial;
+
+}
+
+ul li {
+ float: left;
+ width: 160px;
+ height: 40px;
+ border-radius: 5px;
+ background-color: black;
+ opacity: .8;
+ line-height: 40px;
+ text-align: center;
+ font-size: 20px;
+ margin-right: 2px;
+
+}
+
+ul li a {
+ text-decoration: none;
+ color: white;
+ display: block;
+}
+
+ul li a:hover {
+ background-color: green;
+}
+
+ul li ul li{
+ display: none;
+}
+
+ul li:hover ul li {
+ display: block;
+}
+
+#ft{
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+div{
+  position: center;
+  color: #0bba6b;
+  font-size: 80px;
+  padding: 300px;
+}

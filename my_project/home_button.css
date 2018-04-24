@@ -1,0 +1,17 @@
+.bt{
+    text-align: center;
+}
+button{
+  	position: center;
+   	margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #34ad56;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+background: #2d61bc;
+}
